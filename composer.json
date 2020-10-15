@@ -1,0 +1,26 @@
+{
+  "name": "jmultimidia/login0auth",
+  "description": "Login social via facebook com 0auth 2 Client e mySQL.",
+  "minimum-stabiliy": "stable",
+  "version": "1.0.0",  
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Johannes Nogueira",
+      "email": "jmultimidia@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/class",
+      "Core\\": "app/Core",
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "league/oauth2-facebook": "2.0.*"
+  }
+}
